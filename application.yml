@@ -1,19 +1,14 @@
-﻿---
-spring: 
+﻿spring:
   profiles:
     active:
     - dev
 ---
-spring: 
+spring:
+  profiles: dev
   application:
-    name: dept-dev
----    
-spring:     
-  profiles:
-    active:
-    - test
---- 
-spring: 
-  application:
-    name: dept-test
+    name: config-dev
 ---
+spring:
+  profiles: test
+  application:
+    name: config-test
