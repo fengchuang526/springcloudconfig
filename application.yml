@@ -1,4 +1,5 @@
-﻿spring: 
+﻿---
+spring: 
   application:
     name: dept-dev
   profiles:
@@ -11,3 +12,4 @@ spring:
   profiles:
     active:
     - test
+---
