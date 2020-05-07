@@ -1,15 +1,19 @@
 ﻿---
 spring: 
-  application:
-    name: dept-dev
   profiles:
     active:
     - dev
+---
+spring: 
+  application:
+    name: dept-dev
+---    
+spring:     
+  profiles:
+    active:
+    - test
 --- 
 spring: 
   application:
     name: dept-test
-  profiles:
-    active:
-    - test
 ---
