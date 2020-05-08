@@ -1,8 +1,4 @@
-﻿spring:
-  profiles:
-    active:
-    - dev
----
+﻿---
 server: 
   port: 8201
 
@@ -15,11 +11,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
----
-spring:
-  profiles:
-    active:
-    - test
 ---
 server: 
   port: 8202
